@@ -1,0 +1,622 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!--  Css Code-->
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <!-- Joining condition between css and html file -->
+    <link rel="stylesheet" type="text/css" href="resume.css" />
+
+    <!-- viewput Tag dal do -->
+    <meta
+      name="viewport"
+      content="width=device-width , initial-scale=1,minimum-scale=1"
+    />
+
+    <!-- font awesome code -->
+    <script
+      src="https://kit.fontawesome.com/b01fffd6e3.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <meta charset="utf-8" />
+    <title>Priyanshu Mandloi</title>
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="./images/Screenshot 2023-06-10 110735.png"
+    />
+  </head>
+  <body>
+    <header id="body-header">
+      <div class="container">
+        <nav
+          class="navbar sticky-top navbar-expand-lg navbar-dark shadow-5-strong"
+        >
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 nav-menu" id="nav12">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#about"
+                  >About</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link active drop-down skill-desc"
+                  onclick="skillbhai()"
+                  aria-current="page"
+                  href="#skills"
+                  >Skills</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="#experience"
+                  >Experience</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#education"
+                  >Education</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#portfolio"
+                  >Portfolio</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  id="helcon"
+                  aria-current="page"
+                  href="#contact"
+                  >Contact</a
+                >
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <button class="btn btn-outline-success" type="submit">
+                Search
+              </button>
+            </form>
+          </div>
+        </nav>
+      </div>
+
+      <!-- Heading add karo -->
+      <div id="name-social-container">
+        <div class="text-center">
+          <h1 id="my-name">Priyanshu Mandloi</h1>
+        </div>
+      </div>
+
+      <!-- Adding social section -->
+      <div>
+        <ul class="horizontal-list text-center social-icons">
+          <li>
+            <a href="https://www.linkedin.com/in/priyanshu-mandloi-45626324a">
+              <!-- <img src="E:\Html\Resume\images\900px-LinkedIn_logo_initials.png"> -->
+              <i class="fab fa-linkedin"></i>
+            </a>
+          </li>
+
+          <li>
+            <a
+              href="https://m.facebook.com/story.php?story_fbid=pfbid0GMq1y9XLbm7AxzKvpbxq3vukgw2c8i5ay4uZdVFN2voJt7w2Y4u1qMD5tbidnUWhl&id=100090740174221&mibextid=Nif5oz"
+            >
+              <i class="fa-brands fa-facebook"></i>
+            </a>
+          </li>
+
+          <li>
+            <a href="https://github.com/priyanshu-mandloi ">
+              <i class="fa-brands fa-github"></i>
+            </a>
+          </li>
+
+          <li>
+            <a href="https://www.google.com/">
+              <i class="fa-brands fa-google-plus-g"></i>
+            </a>
+          </li>
+
+          <li>
+            <a href="https://www.quora.com/profile/Priyanshu-Mandloi-6">
+              <i class="fa-solid fa-q"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </header>
+
+    <main>
+      <!-- My Profile pic -->
+      <section id="about">
+        <div id="my-image">
+          <img src="./images\MyImage\new1.jpg" />
+        </div>
+        <p id="desc" style="text-align: justify; text-justify: inter-word">
+          Hi, my name is <b> Priyanshu Mandloi </b> and I am currently pursuing
+          a B.Tech degree in Information Technology from <b>IET DAVV Indore</b>.
+          I have a strong foundation in coding and have experience with
+          programming languages such as C++, Java, and web development.
+          Additionally, I have maintained a good college CGPA throughout my
+          academic career. I am passionate about technology and enjoy creating
+          <b>innovative solutions</b> to complex problems. I am eager to apply
+          my skills and knowledge to contribute to the success of any team I
+          work with.
+        </p>
+      </section>
+
+      <!-- Skills Section -->
+
+      <section class="skills">
+        <h1 class="section-heading mb75px">
+          <span>
+            <i class="fas fa-chalkboard-teacher"></i>
+          </span>
+          <span>SKILLS</span>
+        </h1>
+
+        <div id="skills-container" class="skills-display">
+          <!-- skills ki list -->
+
+          <div class="skill-progress">
+            <!-- 1 -->
+            <div class="eight-five-percent1 mb-blue1" data-bar-width="85">
+              <div class="skill-name">
+                <span>C++</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="skill-progress">
+            <!-- 2 -->
+            <div class="eight-five-percent2 mb-blue2" data-bar-width="90">
+              <div class="skill-name">
+                <span>HTML</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="skill-progress">
+            <!-- 3-->
+            <div class="eight-five-percent3 mb-blue3" data-bar-width="85">
+              <div class="skill-name">
+                <span>CSS</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="skill-progress">
+            <!-- 4 -->
+            <div class="eight-five-percent4 mb-blue4" data-bar-width="75">
+              <div class="skill-name">
+                <span>Javascript</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="skill-progress">
+            <!-- 5 -->
+            <div class="eight-five-percent5 mb-blue5" data-bar-width="85">
+              <div class="skill-name">
+                <span>Java</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="skill-progress">
+            <!-- 6 -->
+            <div class="eight-five-percent6 mb-blue6" data-bar-width="75">
+              <div class="skill-name">
+                <span>AdobeIllustrator</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="skill-progress">
+            <!-- 7 -->
+            <div class="eight-five-percent7 mb-blue7" data-bar-width="85">
+              <div class="skill-name">
+                <span>NodeJS</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="skill-progress">
+            <!-- 8 -->
+            <div class="eight-five-percent8 mb-blue8" data-bar-width="75">
+              <div class="skill-name">
+                <span>iOS</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Work experience-->
+
+      <section id="experience">
+        <h1 class="section-heading mb75px">
+          <span>
+            <i class="fas fa-chalkboard-teacher"></i>
+          </span>
+          <span>Work Experience</span>
+        </h1>
+
+        <div class="timeline">
+          <div class="timeline-box">
+            <h3>Programing Skills</h3>
+            <div style="text-align: justify; text-justify: inter-word">
+              I have a strong proficiency in the C++ programming language and
+              know basics of Java. Additionally, I have developed a keen
+              understanding of data structures and algorithms through my
+              problem-solving experience on platforms like LeetCode. Recently, I
+              have been expanding my skill set into web development, focusing
+              primarily on frontend technologies as well as on backend part. I
+              am well-versed in HTML, CSS, and have utilized frameworks such as
+              Bootstrap and Tailwind to create visually appealing and responsive
+              designs. My expertise also extends to JavaScript, jQuery, and
+              Ajax, enabling me to enhance user interactions and create dynamic
+              web experiences. On the backend, I have completed projects
+              utilizing Node.js, showcasing my ability to build robust and
+              scalable web applications. Overall, my diverse knowledge in
+              programming languages and web development technologies positions
+              me to contribute effectively to projects requiring both frontend
+              and backend expertise.
+            </div>
+          </div>
+
+          <div class="timeline-box">
+            <h3>Academic Achievment</h3>
+            <div style="text-align: justify; text-justify: inter-word">
+              I have successfully completed my higher secondary education from
+              Gurukul school. I have achieved an outstanding score of 88.6% in
+              my board examinations. After my class 12th with self study I have
+              cleared an entrance test of JEE main and achieved an all India
+              rank of 50644. I have currently persuing my Bachelor of
+              Engineering degree. Throughout these , I have acquired a strong
+              foundation in various subjects and have honed my skills in
+              engineering principles, problem-solving, and critical thinking, I
+              have achieved an impressive overall Cumulative Grade Point Average
+              (CGPA) of 8.54 and I am also the recepient of MMVY scholarship for
+              all four years of graduation.
+            </div>
+          </div>
+
+          <div class="timeline-box">
+            <h3>other domains</h3>
+            <div style="text-align: justify; text-justify: inter-word">
+              Silver Medal by Caring Souls foundation. This certificate is
+              awarded in recognition of the outstanding social service done by
+              me to alleviate the sufferings of needy cancer/Aids patients and
+              unpriviledged kids. Certificate by Indian Space Research
+              Organization(ISRO). This certificate is for participation and for
+              the work in the event organized by ISRO on 5th April 2019 in
+              Gurukul School Dhamnod.
+            </div>
+          </div>
+
+          <div class="timeline-box">
+            <h3>Conclusion</h3>
+            <div style="text-align: justify; text-justify: inter-word">
+              Overall, I am fully passionate in coding as well in the college
+              exams and I am to manage both things parallely. I am always eager
+              to learn new things and always try to explore it.
+            </div>
+          </div>
+
+          <!-- Timeline Dividor -->
+          <div class="timeline-divider">
+            <div class="timeline-traveller">
+              <i class="fa-solid fa-plane"></i>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Education Section -->
+      <section id="education">
+        <h1 class="section-heading mb75px">
+          <span>
+            <i class="fas fa-chalkboard-teacher"></i>
+          </span>
+          <span>Education</span>
+        </h1>
+
+        <div class="timeline">
+          <div class="timeline-box">
+            <div id="Sanskar">
+              <div id="expert">
+                <div id="p1">Senior Secondary Education</div>
+                <div id="p2">Sanskar Academy Thikri</div>
+                <div id="p3">June 2017- Febraury 2018</div>
+              </div>
+              <a href="https://www.sanskaarthikri.com/"
+                ><img
+                  src="./images/MyImage/images.jpeg"
+                  height="60px"
+                  width="60px"
+              /></a>
+            </div>
+            <div
+              id="paras"
+              style="text-align: justify; text-justify: inter-word"
+            >
+              I am pleased to share that I have successfully completed my 10th
+              grade with an outstanding percentage of 80%. I attained this
+              academic milestone from the prestigious Sanskar Academy in Thikri
+              during the academic year 2017-2018.
+            </div>
+          </div>
+
+          <div class="timeline-box">
+            <div id="Sanskar">
+              <div id="expert">
+                <div id="p1">Higher Secondary Education</div>
+                <div id="p2">Gurukul School Dhamnod</div>
+                <div id="p3">June 2019- Febraury 2020</div>
+              </div>
+              <a href="https://www.gurukulschool.org/"
+                ><img
+                  src="./images\MyImage\favicon.png"
+                  height="60px"
+                  width="60px"
+              /></a>
+            </div>
+            <div
+              id="paras"
+              style="text-align: justify; text-justify: inter-word"
+            >
+              I have scored 88.6% in class 12th in the year 2019-2020 and
+              cleared the JEE Mains exam in the year of 2021. I have achieved
+              50644 AIR with my self studies. During this preparation I have
+              learned a lot about me and this exam have a great impact in my
+              life and teach me a lot about the importance of hard work.
+            </div>
+          </div>
+
+          <div class="timeline-box">
+            <div id="Sanskar">
+              <div id="expert">
+                <div id="p1a">Post Graduation</div>
+                <div id="p2a">IET DAVV Indore</div>
+                <div id="p3a">November 2021-ongoing</div>
+              </div>
+              <a href="https://www.ietdavv.edu.in/"
+                ><img
+                  src="./images/MyImage/images(1).jpeg"
+                  height="60px"
+                  width="60px"
+              /></a>
+            </div>
+            <div
+              id="paras"
+              style="text-align: justify; text-justify: inter-word"
+            >
+              I am currently pursuing my post-graduation from the prestigious
+              Institute of Engineering and Technology (IET) DAVV, Indore. During
+              my academic journey, I have gained a plethora of skills that have
+              helped me grow both personally and professionally.
+            </div>
+          </div>
+
+          <!-- Timeline Dividor -->
+          <div class="timeline-divider">
+            <div class="timeline-traveller">
+              <i class="fa-solid fa-car-side"></i>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Portfolio -->
+      <!-- <section id="portfolio">
+        <h1 class="section-heading mb75px portfoliohead">
+          <span>
+            <i class="fa-solid fa-list"></i>
+          </span>
+          <span>Portfolio</span>
+        </h1>
+
+      
+        <div id="div1">
+          <div id="diva">
+            <div id="div2">
+              <img src="./images\1images\codezen_2.png" />
+            </div>
+            <div id="div3">
+              <img src="./images\1images\codezen_2.png" />
+            </div>
+            <div id="div4">
+              <img src="./images\1images\codezen_2.png" />
+            </div>
+          </div>
+
+          <div id="divb">
+            <div id="div5">
+              <img src="./images\1images\codezen.png" />
+            </div>
+            <div id="div6">
+              <img src="./images\1images\codezen.png" />
+            </div>
+            <div id="div7">
+              <img src="./images\1images\codezen.png" />
+            </div>
+          </div>
+        </div>
+      </section> -->
+
+      <!-- Section Id-->
+
+      <section id="contacts">
+        <h1 class="section-heading1 mb75px">
+          <span>
+            <i class="fa-solid fa-address-card"></i>
+          </span>
+          <span>Contact</span>
+        </h1>
+
+        <div class="maincontact">
+          <!-- create a form -->
+          <div class="Form">
+            <form>
+              <div id="div111">
+                <div>
+                  <input
+                    class="contact-input"
+                    type="username"
+                    name="username"
+                    id="username"
+                    required
+                    placeholder="Your Name"
+                  />
+                </div>
+                <div id="email">
+                  <input
+                    class="contact-input"
+                    type="email"
+                    name="email"
+                    id="email"
+                    placeholder="Your Email"
+                  />
+                </div>
+              </div>
+
+              <div class="message">
+                <!-- <p> Message </p> -->
+                <textarea
+                  class="contact-input"
+                  name="experience"
+                  rows="10"
+                  cols="5"
+                >
+                   Message
+                </textarea>
+                <div id="mess">
+                  <button type="submit">Send Message</button>
+                </div>
+              </div>
+            </form>
+          </div>
+
+          <!-- Address ke bare me btana -->
+          <div id="address">
+            <div id="getintouch">
+              <h3>Get in touch</h3>
+              <p
+                id="desc1"
+                style="text-align: justify; text-justify: inter-word"
+              >
+                If you want to get in touch with me, you can reach me at the
+                following contacts detail. I am currently living in IET DAVV
+                Indore hostel and I am available between 5 pm to 6 pm. I will
+                try my best to respond to you as soon as possible.
+                Alternatively, you can also give me a call during my available
+                hours and I would be happy to have a chat with you.
+              </p>
+            </div>
+
+            <div id="location">
+              <h3>My Address</h3>
+              <div id="address1">
+                <i class="fa-solid fa-location-pin"></i>
+                <span>Indore,India</span>
+              </div>
+
+              <div id="address1">
+                <i class="fa-solid fa-mobile"></i>
+                <span>9301937306</span>
+              </div>
+
+              <div id="address1">
+                <i class="fa-regular fa-message"></i>
+                <span>priyanshumandloigurukul@gmail.com</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Adding logo at last -->
+
+        <div id="lastlogo">
+          <ul class="horizontal-list text-center social-icons">
+            <li>
+              <a href="https://www.linkedin.com/in/priyanshu-mandloi-45626324a">
+                <i class="fab fa-linkedin"></i>
+              </a>
+            </li>
+
+            <li>
+              <a href="https://ne-np.facebook.com/someshwar.mandloi">
+                <i class="fa-brands fa-facebook"></i>
+              </a>
+            </li>
+
+            <li>
+              <a href="https://github.com/priyanshu-mandloi">
+                <i class="fa-brands fa-github"></i>
+              </a>
+            </li>
+
+            <li>
+              <a href="https://www.google.com">
+                <i class="fa-brands fa-google-plus-g"></i>
+              </a>
+            </li>
+
+            <li>
+              <a href="https://www.quora.com/profile/Priyanshu-Mandloi-6">
+                <i class="fa-solid fa-q"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+
+    <!-- Java script  -->
+
+    <script type="text/javascript" src="resume1.js"></script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+      integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+      integrity=" sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
